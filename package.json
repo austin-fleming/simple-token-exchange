@@ -1,0 +1,15 @@
+{
+  "name": "simple-token-exchange",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "on-chain": "yarn workspace @apps/on-chain",
+    "frontend": "yarn workspace @apps/frontend"
+  }
+}
